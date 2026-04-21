@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Task>
+  <Triggers>
+    <CalendarTrigger>
+      <StartBoundary>2026-04-021T00:00:00</StartBoundary>
+      <ScheduleByDay>
+        <DaysInterval>1</DaysInterval>
+      </ScheduleByDay>
+    </CalendarTrigger>
+  </Triggers>
+  <Actions>
+    <Exec>
+      <Command>C:\path\to\subkamuna-cli\Subkamuna.bat</Command>
+      <Arguments>-l domains.txt --only-live -o "scan_%date%.json"</Arguments>
+    </Exec>
+  </Actions>
+</Task>
