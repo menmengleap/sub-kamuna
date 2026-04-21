@@ -1,13 +1,21 @@
 {
   "domain": "thaikit.net",
-  "timestamp": "2026-04-21T08:10:21.668Z",
-  "total": 1,
-  "live": 1,
+  "timestamp": "2026-04-21T12:21:53.721Z",
+  "scanner": "SubKamuna v4.0",
+  "total_subdomains": 2,
+  "live_services": 1,
   "all_subdomains": [
+    "thaikit.net",
     "www.thaikit.net"
   ],
   "live_subdomains": [
-    "http://www.thaikit.net (308)"
+    "https://thaikit.net (200)"
   ],
-  "scan_time_seconds": "5.4"
+  "files_discovered": [],
+  "folders_discovered": [],
+  "emails_extracted": [],
+  "technologies_detected": {},
+  "js_endpoints": [],
+  "platform": "win32",
+  "node_version": "v24.14.1"
 }

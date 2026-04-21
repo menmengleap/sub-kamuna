@@ -1,0 +1,15 @@
+{
+  "domain": "gourmetmarketthailand.com",
+  "timestamp": "2026-04-21T09:35:11.679Z",
+  "total": 2,
+  "live": 2,
+  "all_subdomains": [
+    "www.gourmetmarketthailand.com",
+    "beta.gourmetmarketthailand.com"
+  ],
+  "live_subdomains": [
+    "https://www.gourmetmarketthailand.com (403)",
+    "http://beta.gourmetmarketthailand.com (403)"
+  ],
+  "scan_time_seconds": "5.1"
+}

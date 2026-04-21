@@ -1,17 +1,12 @@
 {
-  "name": "subkamuna-cli",
-  "version": "2.0.0",
-  "description": "Advanced subdomain enumeration with HTTP probing",
+  "name": "subkamuna",
+  "version": "3.0.0",
+  "description": "Subdomain Scanner with Subfinder + DNS Brute Force",
   "main": "bin/subkamuna.js",
-  "bin": {
-    "subkamuna": "./bin/subkamuna.js"
-  },
   "scripts": {
-    "start": "node bin/subkamuna.js"
+    "start": "node bin/subkamuna.js",
+    "scan": "node bin/subkamuna.js"
   },
-  "keywords": ["subdomain", "enumeration", "security", "bugbounty"],
-  "author": "Your Name",
-  "license": "MIT",
   "dependencies": {
     "axios": "^1.6.2",
     "chalk": "^4.1.2",
